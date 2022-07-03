@@ -93,6 +93,7 @@ section {
     height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .hero-form {
@@ -104,8 +105,8 @@ section {
     border-width: 3px;
     border-color: #024e76;
     position: absolute;
-    bottom: 50px;
-    right: 100px; 
+    bottom: 120px;
+    right: 140px; 
 }
 
 .hero-form p {
