@@ -40,7 +40,7 @@ section {
 /*Header Styles Start*/
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -64,7 +64,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #fce138;
+    color: var(--primary-color);
 }
 
 header nav {
@@ -87,7 +87,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: #fce138;
+    background: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
@@ -110,10 +110,10 @@ header nav ul li a:hover {
 .hero-form {
     background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
-    color:#024e76;
+    color: var(--secondary-color);
     border-style: solid;
     border-width: 3px;
-    border-color: #024e76;
+    border-color: var(--secondary-color);
     border-radius: 15px;
     width: 40%;
     margin: 3.5%;
@@ -130,12 +130,12 @@ header nav ul li a:hover {
 }
 
 .form-input {
-    border: 1px solid #024e76;
+    border: 1px solid var(--secondary-color);
     border-radius: 10px;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color:#024e76;
+    color: var(--secondary-color);
     width: 100%;
     margin-bottom: 15px;
     background-color: rgba(255, 255, 255, 0.75);
@@ -151,8 +151,8 @@ header nav ul li a:hover {
 }
 
 .hero-form button {
-    color: #fce138;
-    background-color: #024e76;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
@@ -160,7 +160,7 @@ header nav ul li a:hover {
 }
 
 .hero-form button:hover {
-    background-color: #39a6b2;
+    background-color: var(--tertiary-color);
 }
 
 .checkbox-wrapper input, .radio-wrapper input {
@@ -179,7 +179,7 @@ header nav ul li a:hover {
     height: 20px;
     width: 20px;
     background: rgba(255, 255, 255, 0.75);
-    border: 1px solid #024e76;
+    border: 1px solid var(--secondary-color);
     position: absolute;
     top: -4px;
     left: -30px;
@@ -194,19 +194,19 @@ header nav ul li a:hover {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #024e76;
+    background: var(--secondary-color);
     position: absolute;
     left: -29px;
     top: -3px;
-    background-image: radial-gradient(circle, #39a6b2, #024e76);
+    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
 }
 
 .checkbox-wrapper label::after {
     content: "";
     height: 6px;
     width: 14px;
-    border-left: 2px solid #024e76;
-    border-bottom: 2px solid #024e76;
+    border-left: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
     position: absolute;
     left: -26px;
     top: 1px;
@@ -233,7 +233,7 @@ header nav ul li a:hover {
 .hero-cta h2 {
     font-style: italic;
     font-size: 55px;
-    color:#fce138;
+    color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 /* Hero Style End */
@@ -245,7 +245,7 @@ header nav ul li a:hover {
 
 .intro p {
     line-height: 1.7;
-    color: #39a6b2;
+    color: var(--tertiary-color);
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
@@ -254,24 +254,24 @@ header nav ul li a:hover {
 
 /*What You Do Style Start*/
 .steps {
-    background-color: #fce138;
+    background-color: var(--primary-color);
 }
 
 .step h3 {
-    color: #024e76;
+    color: var(--secondary-color);
     font-size: 46px;
     flex: 1 30%;
 }
 
 .step-text p {
-    color:#39a6b2;
+    color:var(--tertiary-color);
     font-size: 18px;
 }
 
 .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
-    color:#024e76;
+    color:var(--secondary-color);
 }
 
 .step {
@@ -285,7 +285,7 @@ header nav ul li a:hover {
 }
 
 .step:not(:last-child) {
-    border-bottom: 1px solid #39a6b2;
+    border-bottom: 1px solid var(--tertiary-color);
 }
 
 .step-info {
@@ -320,8 +320,8 @@ header nav ul li a:hover {
 
 .trainer {
     margin: 20px;
-    background-color: #024e76;
-    color: #fce138;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     flex: 1;
 }
 
@@ -351,11 +351,11 @@ header nav ul li a:hover {
 
 /* Reach Out Style Start */
 .contact {
-    background-color: #024e76;
+    background-color: var(--secondary-color);
 }
 
 .contact h2 {
-    color:#fce138;
+    color:var(--primary-color);
 }
 
 .contact-info {
@@ -378,7 +378,7 @@ header nav ul li a:hover {
 }
 
 .contact-info h3 {
-    color:#fce138;
+    color:var(--primary-color);
     font-size: 32px;
 }
 
@@ -390,16 +390,16 @@ header nav ul li a:hover {
 }
 
 .contact-info a {
-    color: #fce138;
+    color: var(--primary-color);
 }
 
 .contact-form input, .contact-form textarea {
-    border: 1px solid #024e76;
+    border: 1px solid var(--secondary-color);
     border-radius: 10px;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color:#024e76;
+    color:var(--secondary-color);
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -415,21 +415,21 @@ header nav ul li a:hover {
     width: 100%;
     border: none;
     border-radius: 10px;
-    background: #fce138;
-    color:#024e76;
+    background: var(--primary-color);
+    color:var(--secondary-color);
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
 }
 
 .contact-form button:hover {
-    color: #fce138;
-    background: #39a6b2;
+    color: var(--primary-color);
+    background: var(--tertiary-color);
 }
 
 /* start footer styles */
 footer {
-    background: #fce138;
+    background: var(--primary-color);
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -438,7 +438,7 @@ footer {
 }
 
 footer h2 {
-    color: #024e76;
+    color: var(--secondary-color);
     font-size: 30px;
     margin: 0;
 }
@@ -449,7 +449,7 @@ footer div {
 }
 
 footer a {
-    color: #024e76;
+    color: var(--secondary-color);
 }
 
 /* end footer styles */
